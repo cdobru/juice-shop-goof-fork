@@ -46,5 +46,5 @@ jobs:
 
     - name: kubectl apply
       run: |
-        aws eks update-kubeconfig --region us-east-1 --name juice-shop-cluster
+        aws eks update-kubeconfig --region us-east-1 --name juice-shop-cluster-cd
         kubectl apply -f k8s-src
