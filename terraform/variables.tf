@@ -1,7 +1,7 @@
 variable "name" {
     type = string
     description = "name of cluster"
-    default = "juice-shop-cluster-cd"
+    default = "juice-shop-cluster"
 }
 
 variable "region" {
