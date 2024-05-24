@@ -34,4 +34,4 @@ jobs:
         - name: Snyk Container Monitor 
           run: snyk container monitor cdobru/snyk-juice-shop:latest --tags="component=pkg:github/cdobru/juice-shop-goof-fork@master" --org=${{ secrets.SNYK_ORG_ID }} --file=Dockerfile
           env:
-            SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+            SNYK_TOKEN: ${{ secrets.SNYK_TOKEN_2 }}
