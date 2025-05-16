@@ -9,7 +9,6 @@ import { type Review } from '../data/types'
 
 const challenges = require('../data/datacache').challenges
 const db = require('../data/mongodb')
-const security = require('../lib/insecurity')
 
 module.exports = function productReviews () {
   return (req: Request, res: Response, next: NextFunction) => {
