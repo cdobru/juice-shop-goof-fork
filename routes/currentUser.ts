@@ -8,7 +8,6 @@ import { type Request, type Response } from 'express'
 
 const security = require('../lib/insecurity')
 const cache = require('../data/datacache')
-const challenges = cache.challenges
 
 module.exports = function retrieveLoggedInUser () {
   return (req: Request, res: Response) => {
