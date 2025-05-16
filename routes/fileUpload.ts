@@ -12,7 +12,6 @@ import * as utils from '../lib/utils'
 
 const challenges = require('../data/datacache').challenges
 const libxml = require('libxmljs2')
-const vm = require('vm')
 const unzipper = require('unzipper')
 
 function ensureFileIsPassed ({ file }: Request, res: Response, next: NextFunction) {
